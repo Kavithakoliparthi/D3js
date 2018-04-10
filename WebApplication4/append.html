@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+    <p>First paragraph</p>
+    <p>Second paragraph</p>
+	<h1>Remove method</h1>
+    <script>
+        d3.select("body").append("p").text("Third paragraph.");
+		d3.select("body").insert("p").text("Fourth paragraph");
+		 d3.select("h1").remove();
+    </script>
+</body>
+</html>

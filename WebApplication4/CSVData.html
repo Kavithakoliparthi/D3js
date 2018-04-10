@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+    <script>
+        d3.csv("/fruits.csv", function (data)
+        {
+            for (var i = 0; i < data.length; i++)
+            {
+                console.log(data[i].Fruit);
+                console.log(data[i].Count);
+            }
+        }); 
+    </script>
+</body>
+</html>
