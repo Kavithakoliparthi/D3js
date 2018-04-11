@@ -1,0 +1,5 @@
+﻿Fruit,Amount
+Apple,32
+Banana,10
+Guva,15
+Strawberry,36
